@@ -42,19 +42,21 @@ The application follows a layered architecture to separate HTTP request handling
 
 ## Technology Stack
 
-| Technology      | Purpose 
 
-| Java            | Core programming language 
-| Spring Boot     | Application framework 
-| Spring Security | Authentication and authorization 
-| Spring Data JPA | Database access and persistence 
-| Hibernate       | ORM implementation 
-| MySQL           | Relational database for persistent data 
-| Maven           | Dependency and build management 
-| REST APIs       | Communication between clients and backend 
-| Swagger         | API documentation and testing 
-| IntelliJ IDEA   | Development environment 
-| Git and GitHub  | Version control and source-code hosting 
+
+| Technology | Purpose |
+|---|---|
+| Java | Core programming language |
+| Spring Boot | Application framework |
+| Spring Security | Authentication and authorization |
+| Spring Data JPA | Database access and persistence |
+| Hibernate | ORM implementation |
+| MySQL | Database for development and testing |
+| Maven | Dependency and build management |
+| REST APIs | Communication between clients and backend |
+| Swagger | API documentation and testing |
+| IntelliJ IDEA | Development environment |
+| Git and GitHub | Version control and source-code hosting |
 
 
 ## Features
