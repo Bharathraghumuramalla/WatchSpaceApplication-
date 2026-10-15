@@ -268,37 +268,37 @@ The following endpoint list reflects the intended API structure. Verify each HTT
 
 ### User and Authentication APIs
 
-| Method    | Endpoint        | Description
-
-| POST      | `/register`     | Register a player
-| POST      | `/login`        | Authenticate a player
-| POST      | `/hostRegister` | Register a host
-| POST      | `/hostLogin`    | Authenticate a host
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/register` | Register a player |
+| POST | `/login` | Authenticate a player |
+| POST | `/hostRegister` | Register a host |
+| POST | `/hostLogin` | Authenticate a host |
 
 ### Title APIs
 
-| Method    | Endpoint            | Description
-
-| POST      | `/admin/postTitles` | Add a title
-| GET       | `/getTitles`        | Retrieve available titles
-| GET       | `/getTitles/{id}`   | Retrieve a title by ID
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/admin/postTitles` | Add a title |
+| GET | `/getTitles` | Retrieve available titles |
+| GET | `/getTitles/{id}` | Retrieve a title by ID |
 
 ### Watch-Space APIs
 
-| Method    | Endpoint                         | Description
-
-| POST      | `/watchSpaces`                   | Create a watch space
-| GET       | `/getWatchSpace`                 | Retrieve watch spaces
-| GET       | `/getWatchSpace/{id}`            | Retrieve a watch space by ID
-| POST      | `/watchSpaces/join/{inviteCode}` | Join using an Invite code
-| POST      | `/endWatchSpace`                 | End a watch space
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/watchSpaces` | Create a watch space |
+| GET | `/getWatchSpace` | Retrieve watch spaces |
+| GET | `/getWatchSpace/{id}` | Retrieve a watch space by ID |
+| POST | `/watchSpaces/join/{inviteCode}` | Join a watch space using an invite code |
+| POST | `/endWatchSpace/{id}` | End a watch space by ID |
 
 ### Chat APIs
 
-| Method    | Endpoint                                 | Description
-
-| GET       | `/watchSpaces/{watchSpaceId}/messages`   | Retrieve messages for a watch space
-| POST      | `/watchSpace/postMessage`                | Post a message to a watch space
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/watchSpaces/{watchSpaceId}/messages` | Retrieve messages for a watch space |
+| POST | `/watchSpace/postMessage` | Post a message to a watch space |
 
 
 ## Project Structure
